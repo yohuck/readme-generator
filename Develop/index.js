@@ -26,6 +26,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'credits',
+        message: "Credits: Who are the key contributors to this project?"
+    },
+    {
+        type: 'input',
         name: 'contribution',
         message: "Contribution: Enter the contribution guidelines for your project"
     },
