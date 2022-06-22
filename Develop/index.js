@@ -28,7 +28,7 @@ function init() {
         .prompt(questions)
         .then((data) => {
             // console.log(data)
-            writeToFile('test', generateMarkdown.generateMarkdown(data))
+            writeToFile(`${data.title.toUpperCase()}-README`, generateMarkdown.generateMarkdown(data))
         })
 }
 
