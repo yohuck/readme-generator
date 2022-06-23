@@ -20,6 +20,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ![${data.license}](${renderLicenseBadge(data.license.replaceAll(" ", '%20'))}) 
 
 ## Description
 ${data.description}
@@ -41,12 +42,12 @@ ${data.usage}
 ![${data.title} screenshot](assets/images/screenshot.png)
 
 ## Credits
-      ${data.credits}
+${data.credits}
 
 ## License
-${data.license}
+This project uses a ${data.license} license
 
-![${data.license}](${renderLicenseBadge(data.license.replaceAll(" ", '%20'))})   
+
 
 ## Contributing
 ${data.contribution}
