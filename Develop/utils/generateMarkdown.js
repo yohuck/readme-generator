@@ -22,7 +22,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
 ## Description
-      ${data.description}
+${data.description}
 
 ## Table of Contents
 - [Installation](#installation)
@@ -34,30 +34,31 @@ function generateMarkdown(data) {
 - [Questions](#questions,.m)
 
 ## Installation
-      ${data.installation}
+${data.installation}
 
 ## Usage
-      ${data.usage}
+${data.usage}
 ![${data.title} screenshot](assets/images/screenshot.png)
 
 ## Credits
       ${data.credits}
 
 ## License
-      ${data.license}
+${data.license}
+
 ![${data.license}](${renderLicenseBadge(data.license.replaceAll(" ", '%20'))})   
 
 ## Contributing
-      ${data.contribution}
+${data.contribution}
 
 ## Tests
-      ${data.testing}
+${data.testing}
 
 
 
 ## Questions
-      With any questions, you can reach me on GitHub at ${data.github} or by Email at ${data.email}
-  `;
+With any questions, you can reach me on [GitHub](https://github.com/${data.github}) or by Email at ${data.email}
+`;
 }
 
 module.exports.renderLicenseBadge = renderLicenseBadge
