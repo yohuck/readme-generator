@@ -36,7 +36,3 @@ THEN I am taken to the corresponding section of the README
 ## Demo
 
 [Demo video on Google Drive](https://drive.google.com/file/d/1U4APAyzP0z97ZrGWwv6x0K56ANAKoOgd/view?usp=sharing)
-
-<iframe src="https://drive.google.com/file/d/1U4APAyzP0z97ZrGWwv6x0K56ANAKoOgd/preview" width="640" height="480"></iframe>
-
-##
