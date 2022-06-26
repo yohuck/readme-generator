@@ -1,4 +1,4 @@
-# 09 Node.js README Generator
+Node.js README Generator
 
 ## Description
 
