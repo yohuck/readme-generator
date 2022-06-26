@@ -39,7 +39,6 @@ ${data.installation}
 
 ## Usage
 ${data.usage}
-![${data.title} screenshot](assets/images/screenshot.png)
 
 ## Credits
 ${data.credits}
@@ -47,14 +46,11 @@ ${data.credits}
 ## License
 This project uses a ${data.license} license
 
-
-
 ## Contributing
 ${data.contribution}
 
 ## Tests
 ${data.testing}
-
 
 
 ## Questions
